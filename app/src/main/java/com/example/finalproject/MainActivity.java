@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
         @Override
         public void onSensorChanged (SensorEvent event){
-            accelerometer.setText(event.values[0]+"\n"+event.values[1]+event.values[2]);
+            //accelerometer.setText(event.values[0]+"\n"+event.values[1]+event.values[2]);
         }
 
         @Override
